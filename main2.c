@@ -1,10 +1,9 @@
-#include <iostream>
-
-using namespace std;
+#include <stdio.h>
 
 int main(){
-	for(int i = 0; i < 10; ++i)
-		cout << i << " ";
-	cout << endl;
+	int i;	
+	for(i = 0; i < 10; ++i)
+		printf("%d ", i);
+	printf("\n");
 	return 0;
 }
